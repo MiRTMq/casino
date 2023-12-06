@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(../img/image.png);
+    background-size: cover;
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#first {
+    background-image: url('../img/ball.png');  
+    background-size: cover;
+}
+#second{
+    background-image: url('../img/numbers.png');  
+    background-size: cover;
+}
+#third{
+    background-image: url('../img/cards.png');  
+    background-size: cover;
+}
+
+#fourth{
+    background-image: url('../img/slots.png');  
+    background-size: cover; 
+}
+h2, p{background-color: rgba(255, 255, 255, 0.6);}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.row>*{
+    margin-top: 100px;
+}
